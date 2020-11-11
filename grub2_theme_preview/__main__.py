@@ -283,6 +283,7 @@ def _grub2_ovmf_tuple():
     distro_map = {
         'Arch Linux': ('/usr/share/edk2-ovmf/x64/OVMF_CODE.fd', 'edk2-ovmf'),
         _DEBIAN: ('/usr/share/OVMF/OVMF_CODE.fd', 'ovmf'),
+        'EndeavourOS': ('/usr/share/edk2-ovmf/x64/OVMF_CODE.fd', 'edk2-ovmf'),
         'Fedora': ('/usr/share/edk2/ovmf/OVMF_CODE.fd', 'edk2-ovmf'),
         'Gentoo': ('/usr/share/edk2-ovmf/OVMF_CODE.fd', 'sys-firmware/edk2-ovmf'),
     }
